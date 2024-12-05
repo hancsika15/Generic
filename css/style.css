@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ez segít elkerülni a szegélyek és margók miatti elcsúszást */
+}
+
+html, body {
+    overflow-x: hidden; /* Megszünteti a vízszintes scroll-t */
+}
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: space-between; 
+    height: 80vh;
+    background-image: url("/images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center; 
+}
+
+header .darker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1; 
+}
+
+header .title, header nav, header .btnCall {
+    position: relative;
+    z-index: 2; 
+    padding: 20px;
+    width: 100%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+header .title h2 {
+    color: white;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    z-index: 2; 
+}
+
+header nav ul li {
+    list-style: none;
+    margin: 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header .btnCall button {
+    background-color: #2a9d8f;
+    border: none;
+    padding: 20px;
+    color: #fff;
+    z-index: 2; 
+}
+
+.offerings {
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 3; 
+    color: white;
+    text-align: center;
+}
+
+.offerings p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.offerings h1 {
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+/* Container formázás */
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #ecf4f3;
+    margin-top: -5%; 
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: fit-content;
+    position: relative; 
+    z-index: 5; 
+}
+
+.text {
+    background-color: #fff;
+    width: 600px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px;
+    box-sizing: border-box;
+}
+
+.one {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.two {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.three {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.num {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: green;
+}
+
+.titleDiv {
+    font-size: 1.7rem;
+    line-height: 3rem;
+}
+
+.content {
+    font-size: 1rem;
+    color: gray;
+}
+.quote{
+    grid-column: 1/3;
+    grid-row: 4/5;
+    box-sizing: border-box;
+}

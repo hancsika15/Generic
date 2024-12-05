@@ -1,0 +1,85 @@
+Fejléc (Header)
+A weboldal tetején hozz létre egy fejlécet (header), amely tartalmazza az oldal nevét és egy navigációs menüt.
+
+A navigációs menüben legyenek linkek, például: „Kezdőlap”, „Szolgáltatások”, „Kapcsolat”.
+
+Fő tartalom (Main Content)
+Hozz létre egy fő tartalmi részt (main), ahol bemutathatod a weboldal fő információit.
+Ezen a részen legyen egy bekezdés (szöveg), egy kép és valamilyen hivatkozás (pl. „Tudj meg többet”).
+
+Lábléc (Footer)
+A lábléc (footer) tartalmazza a weboldal alján lévő információkat, például a szerzői jogokat.
+Hozz létre egy styles.css fájlt, amelyben formázni fogod a HTML elemeket.
+
+Tesztelés
+Nyisd meg az index.html fájlt a böngészőben, hogy látható legyen, hogyan néz ki a weboldal.
+Ellenőrizd, hogy minden helyesen működik-e (pl. képek, linkek, szövegek).
+
+HTML validátorral ellenőrizd a kódot
+
+Reszponzív dizájn
+
+Készíts reszponzív dizájnt, hogy a weboldal mobil eszközökön is jól nézzen ki.
+
+Text:
+Prefix describing what your business does will be here
+We Will Write a Headline Highlighting Your Business Offerings Here
+About Us
+Short Headline for Company About Section Will Be Here
+This part will introduce you or your business to website visitors. We'll write about you, your organization, the products or services you offer, and why your company exists.
+Prefix describing what your business does will be here
+Headline Describing Your Company Core Values Will Come Here
+01
+Core Value 1
+In this part, we will write about the core values and guiding principles that influence your business choices and operations.
+02
+Core Value 2
+In this part, we will write about the core values and guiding principles that influence your business choices and operations.
+03
+Core Value 3
+In this part, we will write about the core values and guiding principles that influence your business choices and operations.
+Prefix describing what your business does will be here
+Heading for the Middle Call to Action Will Be Written Here
+We will write a prefix describing what makes people choose your business here
+Headline for Company About Section Will Be Here
+In this part, we will write a sub-headline briefly describing your company's unique value proposition.
+Unique Value Proposition 1
+In this part, we will write about what makes your business unique and the value people get from using your products or services over competitors.
+Unique Value Proposition 2
+In this part, we will write about what makes your business unique and the value people get from using your products or services over competitors.
+Unique Value Proposition 3
+In this part, we will write about what makes your business unique and the value people get from using your products or services over competitors.
+Short Heading for Testimonials Section
+"We will write a hypothetical testimonial from a satisfied customer. You can replace this with actual testimonials from your clients. Testimonials are a great way to inspire potential customers to trust you."
+– Testimonial Author Name
+"We will write a hypothetical testimonial from a satisfied customer. You can replace this with actual testimonials from your clients. Testimonials are a great way to inspire potential customers to trust you."
+– Testimonial Author Name
+"We will write a hypothetical testimonial from a satisfied customer. You can replace this with actual testimonials from your clients. Testimonials are a great way to inspire potential customers to trust you."
+– Testimonial Author Name
+Prefix for the Footer Call to action section will be here
+We Will Write a Convincing Call To Action to Engage Your Audience Here
+
+2 oldal szövegei
+Offerings
+Headline for the Offering Page Will Be Here
+
+01
+Offering 1
+For this part, we will write an additional introduction of yourself or your business. This can be about your company history, success stories, or the product or services you offer. It can also tell about how you helped clients achieve their desired results.
+
+02
+Offering 2
+For this part, we will write an additional introduction of yourself or your business. This can be about your company history, success stories, or the product or services you offer. It can also tell about how you helped clients achieve their desired results.
+
+03
+Offering 3
+For this part, we will write an additional introduction of yourself or your business. This can be about your company history, success stories, or the product or services you offer. It can also tell about how you helped clients achieve their desired results.
+
+"We will write a hypothetical testimonial from a satisfied customer. You can replace this with actual testimonials from your clients. Testimonials are a great way to inspire potential customers to trust you."
+– Testimonial Author Name
+
+Prefix for the Footer Call to action section will be here
+We Will Write a Convincing Call To Action to Engage Your Audience Here
+Call to Action
+
+Copyright © 2024 Generic
